@@ -1,0 +1,85 @@
+:root{
+    --texto:#0000;
+    --fondo:#c4c5c7;
+    --galeria:#f0efef;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+
+.logo{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-container{
+    background-color: var(--fondo);
+    margin: auto;
+}
+
+.navbar ul{
+    background-color: var(--fondo);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.navbar a{
+    background-color: var(--fondo);
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 500;
+    padding: 6px 8px;
+    transition: color 0.2s ease;
+}
+
+h1{
+    font-size: 6rem;
+    color:var(--textoo);
+    text-align: center;
+}
+
+h2{
+    font-size: 3.5rem;
+    color:var(--textoo);
+    text-align:center;
+}
+
+.hero{
+    background-image: url(img/imagen.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.rejilla{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:.1rem;
+    align-items:center;
+}
+
+.servicios{
+    background-color:var(--galeria);
+    padding: 1rem;
+    display:grid;
+    justify-content: center;
+}
+
+.nombre_servicios{
+    font-weight: 700;
+    color: var(--texto);
+    text-align: center;
+    display: inline-block;
+}
